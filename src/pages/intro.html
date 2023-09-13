@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube</title>
+</head>
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+span{
+    text-decoration: underline red;
+}
+h1{
+    font-size: 60px;
+}
+
+</style>
+<body>
+    <h1 class="alma" style="text-align: center;">Alma<span>Better</span></h1>
+    <hr>
+    <h1 style="text-align: center;">Get-Youtube-Subscriber</h1>
+    <table class="main" style="border: 2px solid black;">
+        <tr>
+            <th>S.NO</th>
+            <th>API</th>
+            <th>PURPOSE</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td><b>GET</b>/subscribers</td>
+            <td>Return an array of all subscribers in the database</td>
+          </tr>
+        <tr>
+            <td>2</td>
+            <td><b>GET</b>/subscribersName</td>
+            <td>Returns an array of subscribers with name and subscribedChannel</td>
+          </tr>
+        <tr>
+            <td>3</td>
+            <td><b>GET</b>/subscribers/:id</td>
+            <td>Returns the details of a subscriber with the given ID.</td>
+          </tr>
+    </table>
+</body>
+</html>
